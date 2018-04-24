@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Button } from 'antd-mobile';
+import MainLayOut from './component/MainLayOut/MainLayOut';
 class App extends Component {
   render() {
     return (
       <div>
-        aaabbbccc
-        <Button type="primary" size="small">
-          下
-        </Button>
+        <MainLayOut />
       </div>
     );
   }
